@@ -72,7 +72,7 @@ def beep_rules(encrypted_list):
         if letter == "#":
             print("Between Letter Break")
             sleep(between_letter / 1000)
-        elif letter == "!":
+        if letter == "!":
             print("Between Words Break")
             sleep(dot_interval / 1000)
 
